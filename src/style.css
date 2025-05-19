@@ -3,3 +3,21 @@
 body{
     background: white;
 }
+.carta {
+  width: 150px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-suit {
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+
+#number {
+  font-size: 5rem;
+   font-weight: bold;
+  font-family:  'Times New Roman', serif;
+}
